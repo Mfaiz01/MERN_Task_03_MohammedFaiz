@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MERN_Task_03_MohammedFaiz/static/css/main.694c41af.css",
+    "main.js": "/MERN_Task_03_MohammedFaiz/static/js/main.0127d5f6.js",
+    "static/js/453.bbce236b.chunk.js": "/MERN_Task_03_MohammedFaiz/static/js/453.bbce236b.chunk.js",
+    "index.html": "/MERN_Task_03_MohammedFaiz/index.html",
+    "main.694c41af.css.map": "/MERN_Task_03_MohammedFaiz/static/css/main.694c41af.css.map",
+    "main.0127d5f6.js.map": "/MERN_Task_03_MohammedFaiz/static/js/main.0127d5f6.js.map",
+    "453.bbce236b.chunk.js.map": "/MERN_Task_03_MohammedFaiz/static/js/453.bbce236b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.694c41af.css",
+    "static/js/main.0127d5f6.js"
+  ]
+}
