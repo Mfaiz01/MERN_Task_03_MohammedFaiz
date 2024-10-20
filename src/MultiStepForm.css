@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #121212; /* Deep dark background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+  background:  rgba(12, 13, 12, 0.9); 
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6); 
+  max-width: 600px;
+  width: 90%; 
+  text-align: left;
+  animation: fadeIn 1s ease-in-out;
+  backdrop-filter: blur(15px); 
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+/* Label Styles */
+label {
+  font-weight: bold;
+  color: #e0e0e0; 
+  margin-bottom: 5px; 
+  display: block; 
+}
+
+/* Input Field Styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border 0.3s ease, background 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.05); 
+  color: #f0f0f0;
+}
+
+/* Input Focus Styles */
+input:focus,
+textarea:focus {
+  border-color: #1e90ff; 
+  outline: none; 
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+/* Error Message Styles */
+.error-message {
+  color: #ff4d4d; 
+  font-size: 0.9rem;
+}
+
+/* Button Container */
+.button-container {
+  display: flex; 
+  justify-content: space-between; 
+  margin-top: 20px; 
+}
+
+/* Adjusted Button Styles */
+button {
+  padding: 15px;
+  background: linear-gradient(45deg, #1e90ff, #00bfff); 
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff; 
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s ease, box-shadow 0.3s; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); 
+}
+
+/* Add margin to the next button */
+.button-container button[type="button"]:last-child {
+  margin-left: 10px; 
+}
+
+/* Button Hover Effect */
+button:hover {
+  transform: translateY(-2px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); 
+  background: linear-gradient(45deg, #00bfff, #1e90ff); 
+}
+
+
+/* Portfolio Link Styles */
+.portfolio-link-container {
+  margin-top: 20px; 
+  text-align: center; 
+}
+
+.portfolio-link {
+  display: inline-block; 
+  padding: 10px 15px; 
+  background-color: #1e1e1e; 
+  color: #1e90ff; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.portfolio-link:hover {
+  background-color: #00bfff; 
+  color: white; 
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 5vw; 
+      margin: 10px 0; 
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  h1 {
+      font-size: 4vw; 
+  }
+}
+
+@media (min-width: 1025px) {
+  h1 {
+      font-size: 3rem; 
+  }
+}
+
+
+/* Toastify Custom Styles */
+.Toastify__toast {
+  background: rgba(50, 50, 50, 0.9); 
+  color: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.Toastify__toast--success {
+  background: rgba(12, 13, 12, 0.9); 
+}
+
+.Toastify__toast--error {
+  background: rgba(255, 0, 0, 0.9);
+}
+
+.Toastify__toast--info {
+  background: rgba(0, 153, 255, 0.9); 
+}
+
+.Toastify__toast--warning {
+  background: rgba(255, 165, 0, 0.9); 
+}
+
+.container{
+  background-color: #000000; 
+  color: white; 
+ 
+}
